@@ -76,7 +76,6 @@ public class Prospector : MonoBehaviour {
 				cp.faceUp = tSD.faceUp;
 				cp.transform.parent = layoutAnchor;
 				cp.transform.localPosition = new Vector3(layout.multiplier.x * tSD.x, layout.multiplier.y * tSD.y, -tSD.layerID);
-
 				cp.layoutID = tSD.id;
 				cp.slotDef = tSD;
 				cp.state = eCardState.tableau;
